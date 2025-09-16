@@ -1,5 +1,9 @@
 # TEC.0007 – Programação de Computadores (NCT)
 
+![Linguagem](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
+![Última atualização](https://img.shields.io/github/last-commit/SEU_USUARIO/SEU_REPOSITORIO?label=última%20atualização)
+![Commits](https://img.shields.io/github/commit-activity/t/SEU_USUARIO/SEU_REPOSITORIO?label=commits)
+
 Bem-vindo(a) ao repositório da disciplina **TEC.0007 – Programação de Computadores (NCT)**.  
 Aqui você encontrará materiais, exemplos de código, exercícios e recursos de apoio para acompanhar as aulas e praticar os conceitos apresentados.
 
