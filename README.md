@@ -27,9 +27,9 @@ Ao final do curso, você será capaz de:
 - Escrever programas claros, bem estruturados e reutilizáveis  
 
 ## 🛠️ Como Usar Este Repositório
-- **Exercícios:** exemplos e listas para praticar.  
-- **Códigos de Aula:** referências para estudo e revisão.  
-- **Materiais de Apoio:** slides, textos e links úteis.
+- Códigos exemplos de sala de aula
+- Códigos auxiliares para uso nas atividades propostas
+- Consulta para desenvolvimento das atividades propostas
 
 ## 🤝 Contribuição
 Sugestões e melhorias são bem-vindas! Caso encontre algum erro ou queira compartilhar ideias, sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*.
