@@ -10,8 +10,8 @@
 '''
 
 # Informando as notas como números inteiros
-intNota1 = int(input('Informe a nota da ETAPA 1:'))
-intNota2 = int(input('Informe a nota da ETAPA 2:'))
+intNota1 = int(input('Informe a nota da ETAPA 1: '))
+intNota2 = int(input('Informe a nota da ETAPA 2: '))
 
 # Calculando a média ponderada e desconsiderando a parte decimal
 intMedia = int( (intNota1*2 + intNota2*3) / 5)

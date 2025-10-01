@@ -10,10 +10,10 @@
 '''
 
 # Informando as notas como números inteiros
-intNota1 = int(input('Informe a nota da ETAPA 1:'))
-intNota2 = int(input('Informe a nota da ETAPA 2:'))
+intNota1 = int(input('Informe a nota da ETAPA 1: '))
+intNota2 = int(input('Informe a nota da ETAPA 2: '))
 
-# Calculando a média ponderada e arrendondando 
+# Calculando a média ponderada e arredondando 
 # para o inteiro mais próximo
 intMedia = round( (intNota1*2 + intNota2*3) / 5)
 
@@ -21,3 +21,9 @@ intMedia = round( (intNota1*2 + intNota2*3) / 5)
 print(f'Nota da Etapa 1: {intNota1}')
 print(f'Nota da Etapa 2: {intNota2}')
 print(f'Média: {intMedia}')
+
+# Mostrando se o aluno está APROVADO ou REPROVADO
+if (intMedia >= 60):
+   print('APROVADO')
+else:
+   print('REPROVADO')   
