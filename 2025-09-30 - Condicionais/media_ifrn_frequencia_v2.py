@@ -32,7 +32,7 @@ if not (intNota2>=0 and intNota2<=100):
 # Informando a carga horária da disciplina (horas/aula)
 intCargaHoraria = int(input('Informe a Carga Horária da Disciplina (h/a): '))
 
-#TODO: Validar se a carga horária é maior que zero
+#TODO: Validar se a carga horária é maior que zero e menor ou igual a 360
 
 # Informando a quantidade de faltas do aluno
 intFaltas = int(input('Informe a quantidade de faltas do aluno: '))
