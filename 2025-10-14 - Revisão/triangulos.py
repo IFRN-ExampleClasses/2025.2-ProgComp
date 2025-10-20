@@ -101,11 +101,13 @@ else:
 
   # ----------------------------------------------------------------------
   # Exibindo os resultados
+  print('------------------------------------------------------')
   print(f'\nÂngulos do triângulo:')
   print(f'Ângulo A ...........: {fltAnguloA:.5f}°')
   print(f'Ângulo B ...........: {fltAnguloB:.5f}°')
   print(f'Ângulo C ...........: {fltAnguloC:.5f}°')
 
+  print('------------------------------------------------------')
   print(f'\nClassificação do triângulo:')
   print(f'Quanto aos lados ...: {strClassificacaoLados}')
   print(f'Quanto aos ângulos .: {strClassificacaoAngulos}\n')
