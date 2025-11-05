@@ -1,8 +1,8 @@
 '''
    Faça um programa que solicite ao usuário um número inteiro e 
-   informe em quantas interções ele converge para a constante de 
-   Kaprekar (6174). Lembre-se que o número deve ter 4 dígitos 
-   distintos. Caso o número não atenda a essa condição, informe
+   informe em quantas interações ele converge para a constante de 
+   Kaprekar (6174). Lembre-se que o número não deve ter 4 dígitos 
+   iguais. Caso o número não atenda a essa condição, informe
    que ele é inválido.
 
    O que é a constante de Kaprekar?
