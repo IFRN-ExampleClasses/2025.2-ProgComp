@@ -7,7 +7,7 @@
 
    Os primeiros números triangulares são: 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, ...
 '''
-import sys
+import sys, math
 
 try:
    intNumero = int(input('Digite um número inteiro: '))
@@ -22,17 +22,13 @@ else:
    if intNumero < 1:
       sys.exit(f'O número {intNumero} não é triangular.')
 
-   # Inicializa variáveis para calcular números triangulares
-   intTriangular = 0 # Valor do número triangular atual
-   intIncremento = 1 # Incremento para o próximo número triangular
-
-   # Calcula números triangulares até encontrar ou ultrapassar o número
-   while intTriangular < intNumero:
-      intTriangular += intIncremento
-      intIncremento += 1 
-
    # Verifica se o número é triangular
-   if intTriangular == intNumero:
+   # https://pt.wikipedia.org/wiki/N%C3%BAmero_triangular
+
+   # Aplica a fórmula inversa: n = (-1 + sqrt(1 + 8*num)) / 2
+   intPosicao = ( -1 + math.isqrt(1 + 8 * intNumero) ) / 2
+
+   if intPosicao.is_integer() and intPosicao > 1:
       print(f'O número {intNumero} é triangular.')
    else:
       print(f'O número {intNumero} não é triangular.')
