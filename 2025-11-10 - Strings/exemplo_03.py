@@ -1,3 +1,7 @@
+'''
+    Exemplo 03: Imprimindo do início do texto até a posição atual em cada linha
+'''
+
 strTexto = input('Digite algo: ')
 
 # Usando FOR

@@ -1,3 +1,7 @@
+'''
+    Exemplo 02: Imprimindo cada letra de um texto em uma linha diferente
+'''
+
 strTexto = input('Digite algo: ')
 
 # Usando FOR

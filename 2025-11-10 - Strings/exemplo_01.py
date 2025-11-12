@@ -1,3 +1,7 @@
+'''
+    Exemplo 01: Trabalhando com fatiamento de strings
+'''
+
 strTexto = 'Rio Grande do Norte'
 
 print(strTexto)      # Rio Grande do Norte
