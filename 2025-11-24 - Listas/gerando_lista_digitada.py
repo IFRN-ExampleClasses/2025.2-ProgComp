@@ -7,7 +7,7 @@ intValor = -1
 # Loop para solicitar números inteiros ao usuário até que ele digite 0
 while intValor != 0:
    try:
-      intValor = int(input('Informe un número inteiro (0 para sair): '))
+      intValor = int(input('Informe um número inteiro (0 para sair): '))
    except ValueError:
       print('ERRO: Valor inválido. Por favor, informe um número inteiro...\n')
    except Exception as e:
