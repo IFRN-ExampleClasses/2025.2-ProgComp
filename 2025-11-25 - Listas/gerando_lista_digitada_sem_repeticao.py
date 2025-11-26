@@ -30,10 +30,27 @@ print('Lista de valores informados:')
 print(lstValores)
 
 # Exibir a soma dos valores na lista
+intSoma = 0
+for intValor in lstValores:
+    intSoma += intValor
+print(f'Soma dos valores na lista: {intSoma}')
 
 # Exibir a média dos valores na lista
+fltMedia = intSoma / len(lstValores)
+print(f'Média dos valores na lista: {fltMedia:.2f}')
 
 # Exibir o maior valor na lista e sua posição
+intMaior = 0
+for intValor in lstValores:
+   if intValor > intMaior: 
+      intMaior = intValor
+intIndiceMaior = lstValores.index(intMaior)
+print(f'Maior valor na lista: {intMaior} (posição {intIndiceMaior})')
 
 # Exibir o menor valor na lista e sua posição
-
+intMenor = lstValores[0]
+for intValor in lstValores:
+   if intValor < intMenor: 
+      intMenor = intValor
+intIndiceMenor = lstValores.index(intMenor)
+print(f'Menor valor na lista: {intMenor} (posição {intIndiceMenor})')
