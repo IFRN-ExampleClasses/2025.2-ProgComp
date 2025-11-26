@@ -1,6 +1,6 @@
 '''
-   Fazer um programa que solicite ao usuário um valor inteiro positivo N e gere uma lista 
-   com N valores inteiros aleatórios entre 1 e 100, sem repetição. 
+   A partir da variável intQtValores, gere uma lista com a quantidade de valores 
+   inteiros aleatórios entre 1 e 100, sem repetição. 
    
    Em seguida, o programa deve exibir:
 
@@ -13,3 +13,5 @@
    - A variância dos valores na lista
    - O desvio padrão dos valores na lista
 '''
+
+intQtValores = 20
