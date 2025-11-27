@@ -1,17 +1,7 @@
 '''
-   A partir da variável intQtValores, gere uma lista com a quantidade de valores 
-   inteiros aleatórios entre 1 e 100, sem repetição. 
-   
-   Em seguida, o programa deve calcular e exibir:
+   Pesquise o que vem a ser List Comprehension em Python.
 
-   1) A lista gerada
-   2) A soma dos valores na lista
-   3) A média dos valores na lista
-   4) O maior valor na lista
-   5) O menor valor na lista
-   6) A mediana dos valores na lista
-   7) A variância dos valores na lista
-   8) O desvio padrão dos valores na lista
+   Após a pesquisa, reescreva o código dos itens 1, e 7 utilizando List Comprehension.
 '''
 import random
 
