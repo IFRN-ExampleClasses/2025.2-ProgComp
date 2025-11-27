@@ -6,7 +6,9 @@
       - Nomes dos alunos -> lstNomes
       - Notas da etapa 1 -> lstNotas1
       - Notas da etapa 2 -> lstNotas2
-   
+
+   As notas são valores inteiros entre 0 e 100.
+
    Após a entrada dos dados, o programa deve calcular a média (IFRN) de cada aluno e 
    armazená-la em uma nova lista.
       - Médias dos alunos -> lstMedias
@@ -14,6 +16,8 @@
    A média deve ser calculada pela fórmula:
       Média = (Nota Etapa 1 * 2) + (Nota Etapa 2 * 3) / 5
 
+   A média deve ser arredondada para o número inteiro mais próximo.
+   
    No final, imprima o nome de cada aluno junto com suas notas e suas médias.
 
    Exemplo:
