@@ -11,5 +11,18 @@
    armazená-la em uma nova lista.
       - Médias dos alunos -> lstMedias
 
+   A média deve ser calculada pela fórmula:
+      Média = (Nota Etapa 1 * 2) + (Nota Etapa 2 * 3) / 5
+
    No final, imprima o nome de cada aluno junto com suas notas e suas médias.
+
+   Exemplo:
+      Nome do Aluno          Etapa 1    Etapa 2    Média
+      --------------------------------------------------
+      João Silva             75         80         78
+      Maria Oliveira         90         85         88
+      Pedro Santos           60         70         65
+      Ana Costa              85         90         88
+      Lucas Pereira          70         75         73
+      --------------------------------------------------
 '''
