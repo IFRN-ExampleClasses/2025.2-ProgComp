@@ -27,6 +27,8 @@ while intAlunos <= 5:
 
       intAlunos += 1
 
+lstAlunos.sort()
+
 print(f'{"Nome do Aluno":<30} {"Etapa 1":>8} {"Etapa 2":>8} {"Média":>8}')
 print('-' * 60)
 for alunos in lstAlunos:

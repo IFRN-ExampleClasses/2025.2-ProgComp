@@ -65,6 +65,6 @@ while intAlunos <= 5:
 
 print(f'{"Nome do Aluno":<30} {"Etapa 1":>8} {"Etapa 2":>8} {"Média":>8}')
 print('-' * 60)
-for i in range(5):
+for i in range(len(lstNomes)):
    print(f'{lstNomes[i]:<30} {lstNotas1[i]:>8} {lstNotas2[i]:>8} {lstMedias[i]:>8}')
 print('-' * 60)
