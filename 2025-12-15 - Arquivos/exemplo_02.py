@@ -35,8 +35,17 @@ else:
       if not strLinha: break
 
       # Convertendo a linha lida para inteiro
-      intValor = int(strLinha)
-
+      try:
+         intValor = int(strLinha)
+      except ValueError:
+         # Tratando o erro caso a conversão falhe
+         print(f'ERRO: Valor inválido "{strLinha}" ignorado!')
+         continue
+      except Exception as e:
+         # Tratando outros erros genéricos
+         print(f'ERRO: {e} ao processar o valor "{strLinha}" ignorado!')
+         continue
+      
       # Adicionando o valor lido convertido em inteiro à lista
       lstNumeros.append(intValor)
 
