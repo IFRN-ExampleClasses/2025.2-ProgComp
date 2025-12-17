@@ -74,7 +74,7 @@ else:
 
    # c) Contando quantos números são maiores ou iguais a média
    # Resolver em uma linha de código
-
+   
    # d) Contando quantos números são menores que a média
    # Resolver em uma linha de código
 
