@@ -1,3 +1,6 @@
+import json
+
+
 dictUFBR = {
     "AC": {"nome": "Acre", "capital": "Rio Branco", "região": "Norte"},
     "AL": {"nome": "Alagoas", "capital": "Maceió", "região": "Nordeste"},
@@ -38,3 +41,29 @@ lstCenso2022 = [    ["AC",   830018], ["AL",  3127683], ["AP",   733508],
                     ["RO",  1581016], ["RR",   636303], ["SC",  7609601],
                     ["SP", 44420459], ["SE",  2209558], ["TO",  1511459]    ]
 
+# dicionario[chave] = valor
+# dicionario[UF]["população"] = valor
+
+# Iterando a lista de censo e atualizando o dicionário
+for uf in lstCenso2022:
+    # Obtendo os dados da lista
+    strUF        = uf[0]
+    intPopulacao = uf[1]
+
+    # Atualizando o dicionário com a população
+    dictUFBR[strUF]["população"] = intPopulacao
+
+# Convertendo o dicionário para JSON Nativo
+dictUFBR = json.dumps(dictUFBR, ensure_ascii=False)
+
+# Exibindo o dicionário atualizado
+print(dictUFBR)
+
+'''
+    Usar a URL a seguir para visualizar os dados em formato JSON:
+
+    https://jsonviewer.stack.hu/
+
+    Copie e cole o conteúdo impresso no console na área esquerda do site.
+    Clique em "Viewer" para visualizar os dados de forma estruturada.
+'''
