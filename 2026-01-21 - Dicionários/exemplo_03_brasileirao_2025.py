@@ -7,7 +7,7 @@
 import os, sys, json
 
 strDiretorio   = os.path.dirname(__file__)
-strNomeArquivo = f'{strDiretorio}/Brasileirao_Serie_A_2025.csv'
+strNomeArquivo = f'{strDiretorio}/Brasileirao_Serie_A.csv'
 
 try:
    arqEntrada = open(strNomeArquivo, 'r', encoding='utf-8')
