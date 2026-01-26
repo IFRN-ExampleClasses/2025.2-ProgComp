@@ -1,5 +1,5 @@
 '''
-   Ler o arquivo Brasileirao_Serie_A_2025.csv e gerar um 
+   Ler o arquivo Brasileirao_Serie_A.csv e gerar um 
    dicionário com os nomes dos times como chaves e um dicionário
    como valor contendo 'Ano', 'Vitórias', 'Empates', 'Derrotas', 
    'Gols Pró', 'Gols Contra', 'Cartões Amarelos' e 'Cartões Vermelhos'.
@@ -8,6 +8,8 @@ import os, sys, json
 
 strDiretorio   = os.path.dirname(__file__)
 strNomeArquivo = f'{strDiretorio}/Brasileirao_Serie_A.csv'
+
+intAno = 2025
 
 try:
    arqEntrada = open(strNomeArquivo, 'r', encoding='utf-8')
@@ -23,7 +25,7 @@ else:
    lstChaves.pop(0)
 
    # Inicializar o dicionário principal
-   dictClassificacao = dict()
+   dictTimes= dict()
 
    while True:
       # Lendo os dados de cada time
@@ -42,16 +44,15 @@ else:
       lstDados.pop(0)
 
       # Criar o dicionário de cada time associando chaves e valores
-      dictTime = dict(zip(lstChaves, lstDados))
+      dictInfoTime = dict(zip(lstChaves, lstDados))
 
       # Adicionar o dicionário do time ao dicionário principal
-      dictClassificacao[strTime] = dictTime
+      dictTimes[strTime] = dictInfoTime
 
    # Fechar o arquivo após a leitura
    arqEntrada.close()
 
-   # Convertendo o dicionário python para o formato JSON nativo
-   dictClassificacao = json.dumps(dictClassificacao, ensure_ascii=False)
-
    # Exibir o dicionário resultante
-   print(dictClassificacao)
+   print(dictTimes)
+
+   print(len(dictTimes), 'times no dicionário.')
