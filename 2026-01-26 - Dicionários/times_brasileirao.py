@@ -52,7 +52,9 @@ else:
    # Fechar o arquivo após a leitura
    arqEntrada.close()
 
+   # Convertendo o dicionário (aspas simples) para JSON Nativo (aspas duplas)
+   # ensure_ascii=False permite que os acentos sejam exibidos corretamente
+   dictTimes = json.dumps(dictTimes, ensure_ascii=False)
+
    # Exibir o dicionário resultante
    print(dictTimes)
-
-   print(len(dictTimes), 'times no dicionário.')
